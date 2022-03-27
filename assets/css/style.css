@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=League+Gothic&family=Nova+Round&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&family=Sansita+Swashed:wght@300;400&display=swap');
+
+body {
+    background-color: #000;
+    font-family: 'Hubballi', cursive;
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Nova Round', cursive;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+/* custom button */
+.btn-custom-danger {
+    background-color: #e30b14;
+    color: #fff;
+}
+
+.btn-custom-danger:hover {
+    background-color: red;
+    color: #fff;
+}
+/* header */
+
+header {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/87a1d9d8-a21d-4109-ba3a-c10d9055f5cf/1dd65ea3-02b5-4214-8242-f1996c9f377d/TR-tr-20220307-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    border-bottom: 8px solid #222222;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%);
+}
+header .logo {
+    height: 100px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 64px;
+    margin-top: 110px;
+}
+
+header h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+header h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+header input {
+    height: 60px!important;
+}
+
+header form button {
+    font-size: 30px!important;
+}
+
+/* story container */
+
+.story-container {
+    border-bottom: 8px solid #222222;
+}
+
+.story-container h1 {
+    color: #fff;
+    font-size: 64px;
+}
+
+.story-container h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.story-container img {
+    width: 100%;
+}
